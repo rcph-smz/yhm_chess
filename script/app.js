@@ -53,7 +53,7 @@ class Pieces {
                 "21", "21", "21", "21", "21", "21", "21", "21",
                 "25", "23", "24", "22", "26", "24", "23", "25",
             ]
-        this.directory = "../assets/resources/alpha"
+        this.directory = "assets/resources/alpha"
         this.file_extension = "png"
         this.empire = ["None", "White", "Black"]
         this.pieces = [{ name: "None", abbr: "V", value: 0 }, { name: "Pawn", abbr: "P", value: 1 }, { name: "King", abbr: "K", value: 2 }, { name: "Knight", abbr: "N", value: 3 }, { name: "Bishop", abbr: "B", value: 4 }, { name: "Rook", abbr: "R", value: 5 }, { name: "Queen", abbr: "Q", value: 9 }]
