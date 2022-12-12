@@ -12,7 +12,7 @@ body {
     grid-template-rows: repeat(8, 1fr);
 
     border: solid 1px black;
-    width: 80%;
+    /* width: 80%; */
     max-width: 700px;
 }
 .square {
@@ -22,4 +22,11 @@ body {
 
     border: solid 1px black;
     aspect-ratio: 1/1;
+}
+.piece {
+    position: relative;
+    
+    width: 100%;
+    aspect-ratio: 1/1;
+    transition: all 1s ease;
 }
